@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#HOME{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(background2.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0;
+    height: 800px;
+}
+
+#ABOUT{
+    background-color: #F0F3F4;
+}
+
+#PROJECTS{
+    background-color: #56BBFF;
+}
+
+#PROJECTS-SS13{
+    background-color: #56BBFF;
+}
+
+#PROJECTS-TTT{
+    background-color: #56BBFF;
+}
+
+#COURSEWORK{
+    background-color: #F0F3F4;
+}
+
+/*
+#MOVIES{
+    width: 100%;
+    height: 800px;
+    float: left;
+    margin-top: 0;
+}*/
+
+section{
+    width: 100%;
+    height: 800px;
+    float: left;
+    margin-top: 0;
+}
+
+.home-nav{
+    list-style: none;
+    text-align: center;
+}
+
+.home-nav li{
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.home-nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 6px 10px 6px 16px;
+    font-family: "Capriola";
+    font-size: 20px;
+    display: block;
+}
+
+.home-nav li a:hover{
+    outline: 1px solid white;
+}
+
+.main-nav{
+    list-style: none;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    right:0;
+    background-color: #17202A;
+    overflow-x: hidden;
+    padding-top: 0px;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    text-align: center-right;
+    padding: 6px 10px 6px 16px;
+    font-family: "Capriola";
+    font-size: 20px;
+    display: block;
+}
+
+.main-nav li a:hover{
+    background-color: #3498DB;
+}
+
+.title{
+    color: white;
+    font-family: "Capriola";
+    font-size: 40px;
+    text-align: center;
+    margin-top: 160px;
+}
+.title-heading{
+    color: white;
+    font-family: "Gudea";
+    font-size: 15px;
+    text-align: center;
+}
+
+.about-title{
+    color: #EC7063;
+    font-family: "Gudea";
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.about-subtitle{
+    color: #17202A;
+    font-family: "Gudea";
+    font-size: 15px;
+    text-align: center;
+}
+
+.summary{
+    color: #17202A;
+    font-family: "Gudea";
+    font-size: 15px;
+    float: left;
+    width: 360px;
+    margin-left: 300px;
+    margin-top: 30px;
+    margin-bottom:0px;
+}
+
+.contact{
+    float:right;
+    font-size: 20px;
+    font-family: "Gudea";
+    padding: 30px;
+    margin-right: 300px;
+}
+
+.contact h2{
+    color: #EC7063;
+}
+
+.contact li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+    float: center;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.contact li a{
+    color: #17202A;
+    text-decoration: none;
+    font-size: 60px;
+}
+
+.contact li a:hover{
+    color: #4FB8FF;
+}
+
+.skills-both {
+	display: inline-block;
+}
+
+.skills{
+    float:left;
+    font-family: "Gudea";
+    margin-right: 0px;
+    margin-left:300px;
+    margin-top:0px;
+    margin-bottom:200px;
+    width: 290px;
+    
+}
+
+.skills h2{
+    color: #EC7063;
+}
+
+.skills ul{
+    list-style: none;
+    text-align: right;
+    font-weight: bold;
+}
+
+.skills-desc{
+    float: right;
+    margin-top: 33px;
+    margin-right: 235px;
+    font-family: "Gudea";
+    width:520px;
+    padding: 0px;
+    margin-left:30px;
+    margin-bottom:90px;
+}
+
+.skills-desc ul{
+    list-style:none;
+}
+
+
+.projects-title{
+    color: #F8F9F9;
+    font-family: "Gudea";
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.projects-links {
+    margin-left: 350px;
+    margin-top: 60px;
+}
+
+.projects-links li{
+    display: inline-block;
+    float: center;
+    margin-left: 60px;
+}
+
+.container {
+    position: relative;
+    background-color: #17202A;
+    width: 255px;
+    height: 255px;
+}
+
+.text{
+    position: absolute;
+    top:110px;
+    right:20px;
+    font-family: "Gudea";
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    text-align: center;
+}
+
+.text2{
+    position: absolute;
+    top:110px;
+    right:75px;
+    font-family: "Gudea";
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    text-align: center;
+}
+
+.projects-links li a:hover{
+    opacity: 0.5;
+}
+
+.projects-links .container:hover .text{
+    opacity: 1;
+}
+
+.projects-links .container:hover .text2{
+    opacity: 1;
+}
+
+
+
+
+
+.course-title{
+    color: #EC7063;
+    font-family: "Gudea";
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70px;
+}
+
